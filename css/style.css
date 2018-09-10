@@ -1,0 +1,276 @@
+body {
+	font-size: 14px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: normal;
+}
+/*.head-mark{
+
+float: right;
+position: static;
+}
+*/
+
+.menu {
+	background: #373737;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding: 1rem;
+	z-index: 5;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1rem;
+}
+
+.header {
+	text-align: center;
+	margin: 1.5rem;
+	justify-content: space-around;
+}
+
+.number {
+	padding-top: 20px;
+	float: right;
+	margin-right: 4rem;
+	font-size: 16px;
+}
+
+#call {
+	border: 1px solid #ff8d00;
+	border-radius: 5px;
+	color: white;
+	background-color: #ff8d00;
+	padding: 0px 0px;
+	display: flex;
+	width: 15rem;
+	height: 4rem;
+	margin-top: 1rem;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+#call a {
+	color: white;
+	padding: 0px 10px;
+}
+
+#call :hover {
+	text-decoration: none;
+	color: rgb(189, 178, 178)
+}
+
+.main-page {
+	position: static;
+	background: url(../img/fon.jpg);
+	filter: brightness(2);
+	display: table;
+	color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 53rem;
+	font-size: 16px;
+	z-index: 1;
+}
+
+.head-mark {
+	float: right;
+}
+.main-page h1 {
+	font-size: 41px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.main-page strong {
+	font-size: 28px;
+	margin-top: 0;
+	padding-top: 0;
+}
+.overlay {
+	z-index: 2;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+}
+.main-page img {}
+.main-header {
+	z-index: 3;
+	position: relative;
+	filter: brightness(0.5);
+}
+.words {
+	left: 2rem;
+	color: white;
+	padding: 3rem;
+	margin-left: 1rem;
+}
+.rectangle {
+	background-color: rgba(125, 125, 125, 0.5);
+	border: 1px solid rgba(125, 125, 125, 0.5);
+	border-radius: 3px;
+	width: 53rem;
+	height: 18.3rem;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+#box {
+	position: relative;
+	padding-top: 60px;
+}
+.properties {
+    
+    background: #f4f4f4;
+    
+    
+}
+
+.properties h1{
+    font-weight: bold;
+    color:  #f39003;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.properties p{
+    margin-top: 0;
+    margin-bottom: 4rem;
+    text-align: center;
+    
+}
+
+.all-prop{
+  
+}
+
+.prop-1{
+    
+    padding: 2rem 2rem;
+    width: 290px;
+    height: 133px;
+    background: #fff;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prop-1 img{
+    float: left;
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.prop-1 p{
+    text-align: left;
+}
+
+.prop-2{
+    
+    padding: 2rem 2rem;
+    width: 290px;
+    height: 133px;
+    background: #fff;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prop-2 img{
+    float: left;
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.prop-2 p{
+    text-align: left;
+}
+
+.prop-3{
+    
+    padding: 2rem 2rem;
+    width: 290px;
+    height: 133px;
+    background: #fff;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prop-3 img{
+    float: left;
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.prop-3 p{
+    text-align: left;
+}
+
+.prop-4{
+    
+    padding: 2rem 2rem;
+    width: 290px;
+    height: 133px;
+    background: #fff;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prop-4 img{
+    float: left;
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.prop-4 p{
+    text-align: left;
+}
+
+.prop-5{
+    
+    padding: 2rem 2rem;
+    width: 290px;
+    height: 133px;
+    background: #fff;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prop-5 img{
+    float: left;
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.prop-5 p{
+    text-align: left;
+}
+
+.prop-6{
+    
+    padding: 2rem 2rem;
+    width: 290px;
+    height: 133px;
+    background: #fff;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.prop-6 img{
+    float: left;
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.prop-6 p{
+	text-align: left;
+	text-decoration: none;
+}
